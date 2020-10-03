@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding:10rem;
+}
+
+.list{
+  max-height: 30vh;
+  overflow-y: scroll;
+  width: 50%;
+  
+}
+
+.list div{
+  border-bottom: 1px solid black;
+}
+
+.list div:hover{
+  background-color: grey;
+  cursor: pointer;
+}
